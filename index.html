@@ -3,19 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Deploy your websites in less than 60 seconds."
+    />
+    <meta property="og:title" content="Abhify... " />
+    <meta property="og:description" content="Abhify... " />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="https://abhified.com" />
+    <title>Abhify - Go Online for Just $9</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-lable="Abhify" class="nav__brand" href="/"
+          ><img src="images/logo.svg" alt=""
+        /></a>
         <svg class="icon icon--white nav__toggler">
           <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
@@ -30,13 +41,15 @@
     <section class="block block--dark block--skewed-left hero">
       <div class="container grid grid--1x2">
         <header class="block__header hero__content">
-          <h1 class="block__heading">Cloud Hosting for Pros</h1>
+          <h1 data-aos="fade-right" class="block__heading">
+            Cloud Hosting for Pros
+          </h1>
           <p class="hero__tagline">
             Deploy your websites in less than 60 seconds.
           </p>
           <a href="" class="btn btn--accent btn--stretched">Get Started</a>
         </header>
-        <picture>
+        <picture data-aos="zoom-in">
           <source
             type="image/webp"
             srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
@@ -49,16 +62,14 @@
         </picture>
       </div>
     </section>
-    <section class="block container block-domain">
+    <section data-aos="fade-up" class="block container block-domain">
       <header class="block__header">
         <h2>Starting at $9 per month</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-          exercitationem?
-        </p>
+        <p>Seach for the available domain name</p>
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here..."
@@ -78,7 +89,7 @@
         <li>.xyz $10</li>
       </ul>
     </section>
-    <section class="block container block-plans">
+    <section data-aos="fade-up" class="block container block-plans">
       <div class="grid grid--1x3">
         <div class="plan">
           <div class="card card--secondary">
@@ -146,12 +157,13 @@
       <header class="block__header">
         <h2>Host on the Cloud to Keep Growing</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
-          voluptatem.
+          Our cloud platform offers powerful dedicated resources and is
+          optimized for efficiency and speed that guarantees a top performance
+          of your site.
         </p>
       </header>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
             <svg class="icon icon--primary">
               <use xlink:href="images/sprite.svg#easy"></use>
@@ -159,12 +171,13 @@
           </span>
           <h3 class="feature__heading">Super Easy to Use</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            Launch and learn preconfigured solutions—developed by abhify Cloud
+            experts—to help you build retail websites, dynamic web apps, and
+            other web hosting use cases.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-left">
           <source
             type="image/webp"
             srcset="images/easy.webp 1x, images/easy@2x.webp 2x"
@@ -185,8 +198,9 @@
           </span>
           <h3 class="feature__heading">Simply Fast Websites</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            We provides high quality websites at the most AFFORDABLE rate on the
+            web! The best part about us is that we work hands on, 1 on 1 with
+            you, in real time.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -211,8 +225,8 @@
           </span>
           <h3 class="feature__heading">Wordpress Made Easy</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            We are here to assist our clients who use WordPress to update the
+            pages and blog posts on their websites.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -237,8 +251,8 @@
           </span>
           <h3 class="feature__heading">24/7 Expert Support</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            We provide assistance round the clock thorugh 1-on-1 chat system to
+            fix any issue.
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
@@ -260,7 +274,7 @@
         <h2>User-friendly Control Panel</h2>
       </header>
       <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
+        <picture data-aos="fade-right" class="block-showcase__image">
           <source
             type="image/webp"
             srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
@@ -271,7 +285,7 @@
           />
           <img src="images/ipad.png" alt="" />
         </picture>
-        <ul class="list">
+        <ul class="list" data-aos="fade-up">
           <li>
             <div class="media">
               <div class="media__image">
@@ -282,9 +296,9 @@
               <div class="media__body">
                 <h3 class="media__title">Easy Start & Managed Updates</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
+                  Easy Updates Manager is a light yet powerful plugin that
+                  allows you to manage all kinds of update- both on your single
+                  site install, or in WordPress Multisite.
                 </p>
               </div>
             </div>
@@ -299,9 +313,9 @@
               <div class="media__body">
                 <h3 class="media__title">Staging, GIT & WP-CLI</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
+                  Git is a version control system that allows you to track
+                  changes to your files over time. You can use Git to create a
+                  copy of your live website on a remote server.
                 </p>
               </div>
             </div>
@@ -316,9 +330,10 @@
               <div class="media__body">
                 <h3 class="media__title">Dynamic Caching & More</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
+                  Dynamic caching stores all the HTML output of your web
+                  application. For example, a WordPress-generated page consists
+                  of a dynamically generated HTML part that is cached by the
+                  Dynamic Cache and a number of static resources
                 </p>
               </div>
             </div>
@@ -326,21 +341,16 @@
         </ul>
       </div>
     </section>
-    <section class="block">
+    <section class="block" data-aos="zoom-in">
       <header class="block__header">
         <h2>What our Customers are Saying</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ipsam.
-        </p>
+        <p>Best Cloud Hosting Provider in the Market</p>
       </header>
       <div class="container">
         <div class="card testimonial">
           <div class="grid grid--1x2">
             <div class="testimonial__image">
-              <img
-                src="images/testimonial.jpg"
-                alt="A happy, smiling customer"
-              />
+              <img src="images/abhi.jpg" alt="A happy, smiling customer" />
               <span class="icon-container icon-container--accent">
                 <svg class="icon icon--white icon--small">
                   <use xlink:href="images/sprite.svg#quotes"></use>
@@ -349,9 +359,10 @@
             </div>
             <blockquote class="quote">
               <p class="quote__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt optio officiis dolore earum error eaque perferendis
-                laudantium sed praesentium dolorum.
+                I have total 3 sites hosted on NR Hosting for one year. My
+                websites' speed have been increased than before. I also got
+                amazing uptime throughout the year. Their support team is very
+                helpful and solves all the issues within a very short time.
               </p>
               <footer>
                 <div class="media">
@@ -361,7 +372,7 @@
                     </svg>
                   </div>
                   <div class="media__body">
-                    <h3 class="media__title quote__author">John Smith</h3>
+                    <h3 class="media__title quote__author">Abhinav Jha</h3>
                     <p class="quote__organization">ABC Company</p>
                   </div>
                 </div>
@@ -377,9 +388,8 @@
           <div class="callout__content">
             <h2 class="callout__heading">Ready to Get Started?</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              voluptate tempora qui distinctio consequatur aliquid pariatur
-              cupiditate quas cum fugit.
+              Ready to build your website today? Grab a coffee or a tea, and
+              let’s get started!
             </p>
           </div>
           <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
@@ -390,12 +400,12 @@
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Products</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website Hosting</a></li>
@@ -405,12 +415,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">About</a></li>
@@ -420,12 +430,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Support</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Contact</a></li>
@@ -435,12 +445,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Domains</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Domain Checker</a></li>
@@ -449,13 +459,16 @@
             </ul>
           </div>
         </section>
-        <section class="footer__brand">
+        <div class="footer__brand">
           <img src="images/logo.svg" alt="" />
-          <p class="footer__copyright">Copyright 2020 Mosh Hamedani</p>
-        </section>
+          <p class="footer__copyright">Copyright 2023 Abhinav Jha</p>
+        </div>
       </div>
     </footer>
-
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
