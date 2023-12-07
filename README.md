@@ -1,5 +1,6 @@
 # VirtualCloudHost
-Visit https://abhify.netlify.app to check the content of website. 
+-------------------
+Visit https://abhify.netlify.app to check the website's content. 
 
-Website designed using HTML, CSS and JS.
+The website was designed using HTML, CSS, and JS.
 
